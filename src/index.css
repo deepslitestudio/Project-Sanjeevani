@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FBF7EE;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overscroll-behavior-y: contain;
+}
+
+/* Optimize touch interactions for Android buttons and inputs */
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Subtle, unobtrusive scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 107, 79, 0.2);
+  border-radius: 9999px;
+}

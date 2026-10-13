@@ -1,0 +1,12 @@
+{
+  "name": "Sanjeevani AI",
+  "description": "AI-powered rural healthcare companion with voice assistance, symptom triage, prescription scanner, emergency SOS, offline mode, and nearby clinic discovery.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
